@@ -1,4 +1,4 @@
-<!-- index.blade.php --> 
+<!-- index.blade.php test--> 
 @extends('layout') 
 @section('content') 
 <style> 
