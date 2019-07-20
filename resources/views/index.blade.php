@@ -12,6 +12,9 @@ margin-top: 40px;
 {{ session()->get('success') }} 
 </div><br /> 
 @endif 
+<section>
+<a href="{{ route ('books.create')}}" class="btn btn-primary">Add Books</a>
+</section><br>
 <table class="table table-striped"> 
 <thead> 
 <tr> 

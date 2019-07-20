@@ -35,6 +35,8 @@ Add Book
 <input type="text" class="form-control" name="book_price"/> 
 </div> 
 <button type="submit" class="btn btn-primary">Create Book</button> 
+<a href="{{ route ('books.index')}}" class="btn btn-danger">Back</a>
+
 </form> 
 </div> 
 </div> 

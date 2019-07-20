@@ -11,14 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/','BookController@');
 
 Route::resource('books', 'BookController'); 
-
-return redirect('/books'); // to a specific url 
-return redirect(url('/books')); // to a specific url with url helper 
-return redirect(url()->previous()); // to a previous url 
-return redirect()->back(); // redirect back (same as above)
 
